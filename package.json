@@ -1,0 +1,25 @@
+{
+  "name": "evidenceflow",
+  "version": "1.0.0",
+  "description": "Secure event-driven evidence processing pipeline on Google Cloud",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test"
+  },
+  "keywords": [],
+  "author": "Ayomide Olojo",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google-cloud/firestore": "^9.4.1",
+    "@google-cloud/storage": "^9.0.0",
+    "express": "^5.3.0"
+  },
+  "engines": {
+    "node": "24.x"
+  },
+  "allowScripts": {
+    "protobufjs@7.6.6": true
+  }
+}
